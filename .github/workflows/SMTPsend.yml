@@ -22,4 +22,4 @@ jobs:
         env:
           EMAIL: 'notifym3pl0x@outlook.com'
           PASSWORD: 'a#h/-^bTVYBk9kN'
-        run: python script.py
+        run: python SMTPsend.py
