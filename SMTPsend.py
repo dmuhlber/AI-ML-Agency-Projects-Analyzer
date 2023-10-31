@@ -1,15 +1,15 @@
 import os
 import requests
-import xml.etree.ElementTree as ET
 import smtplib
+import xml.etree.ElementTree as ET
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # SMTP settings for Outlook
 smtp_server = "smtp-mail.outlook.com"
 smtp_port = 587
-smtp_username = os.environ.get("EMAIL")
-smtp_password = os.environ.get("PASSWORD")
+smtp_username = "notifym3pl0x@outlook.com"
+smtp_password = "a#h/-^bTVYBk9kN"
 
 # Define a function to send email
 def send_email(subject, content):
