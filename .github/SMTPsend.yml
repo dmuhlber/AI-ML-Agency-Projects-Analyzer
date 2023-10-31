@@ -20,6 +20,6 @@ jobs:
       
       - name: Run script
         env:
-          EMAIL: ${{ secrets.EMAIL }}
-          PASSWORD: ${{ secrets.PASSWORD }}
+          EMAIL: 'notifym3pl0x@outlook.com'
+          PASSWORD: 'a#h/-^bTVYBk9kN'
         run: python script.py
